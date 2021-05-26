@@ -19,6 +19,10 @@ button{
     height: 2000px;
 }
 
+span{
+    transition: transform 0.3s ease;
+}
+
 .material-icons.md-18 { font-size: 18px; }
 .material-icons.md-24 { font-size: 24px; }
 .material-icons.md-36 { font-size: 36px; }
@@ -118,15 +122,15 @@ header h1 span{
     padding: 7px;
     border: 1px solid rgba(0, 0, 0, 0);
     color: white;
+    
     transition: transform ease 0.5s;
 }
 .icon_open{
     background-color: #4cb480;
-    
     transform: translate(-50%,+400px) rotate(135deg);
 }
 .icon_close{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #353a3f;
     transform: translate(+200%,-10px);
 }
 .menu_open{
@@ -134,4 +138,7 @@ header h1 span{
 }
 .menu_close{
     transform: translate(-100%,0);
+}
+#open_menu:hover span{
+    transform: scale(1.2);
 }

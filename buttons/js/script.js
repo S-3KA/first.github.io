@@ -6,6 +6,17 @@ let getElemetId3 = document.getElementById("prompt_elem3")
 let getElemetId4 = document.getElementById("prompt_elem4")
 let getElemetId5 = document.getElementById("prompt_elem5")
 
+let menuIcon = document.getElementById("open_menu")
+let getMenu = document.getElementById("menu")
+
+function open__menu(){
+    menuIcon.classList.toggle("icon_open");
+    menuIcon.classList.toggle("icon_close");
+
+    getMenu.classList.toggle("menu_open");
+    getMenu.classList.toggle("menu_close");
+}
+
 function swap1(){
     getElemetId1.classList.toggle("visable");
     getElemetId1.classList.toggle("zindex");
