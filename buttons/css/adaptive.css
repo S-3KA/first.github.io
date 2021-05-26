@@ -1,0 +1,12 @@
+@media(max-width:581px){
+    .prompt{
+        margin-top: 90px;
+        height: 940px;
+    }
+    button:first-of-type{
+        margin-top: 50px;
+    }
+    button:last-of-type{
+        margin-bottom: 60px;
+    }
+}
