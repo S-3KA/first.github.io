@@ -54,7 +54,7 @@ header h1::after{
     left: 50%;
     height: 5px;
     border-radius: 4px;
-    width: 50px;
+    width: 40px;
     transform: translate(-50%,0);
     background-color: #4cb480;
 }
