@@ -131,7 +131,7 @@ header h1 span{
 }
 .icon_close{
     background-color: #353a3f;
-    transform: translate(+200%,-10px);
+    transform: translate(+200%,-20px);
 }
 .menu_open{
     transform: translate(0,0);
