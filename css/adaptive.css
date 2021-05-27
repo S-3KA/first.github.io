@@ -15,4 +15,12 @@
         background-color: #4cb480;
         transform: translate(-50%,+350px) rotate(135deg);
     }
+    #hi{
+        font-size: 8em;
+    }
+}
+@media(max-width:500px){
+    #hi{
+        font-size: 6em;
+    }
 }

@@ -15,10 +15,6 @@ button{
     cursor: pointer;
 }
 
-.test{
-    height: 2000px;
-}
-
 span{
     transition: transform 0.3s ease;
 }
@@ -141,4 +137,32 @@ header h1 span{
 }
 #open_menu:hover span{
     transform: scale(1.2);
+}
+.welcome{
+    position: relative;
+    z-index: -10;
+    width: 100%;
+    max-width: 100wh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hi{
+    position: relative;
+    font-size: 10em;
+    transition: transform 1.6s ease-in-out;
+}
+.hi_hide{
+    transform: translate(-500%,0);
+}
+.hi_outLine{
+    position: absolute;
+    width: 00px;
+    height: 10px;
+    background-color: #4cb480;
+    border-radius: 20px;
+    transition: 1.2s ease;
+
 }
