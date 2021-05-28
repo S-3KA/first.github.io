@@ -13,16 +13,18 @@ function open__menu(){
     getMenu.classList.toggle("menu_close");
 }
 
-setTimeout(function(){
-    getWelcome.classList.toggle("hi_hide")
-
+function screenLoad(){
     setTimeout(function(){
-        document.getElementsByClassName("hi_outLine")[0].style.width = "100%"
-    },1400)
-    setTimeout(function(){
-        document.getElementsByClassName("hi_outLine")[0].style.margin = "0 0 0 100%"
-        document.getElementsByClassName("hi_outLine")[0].style.width = "0px"
-    },2700)
-},20)
+        getWelcome.classList.toggle("hi_hide");
+    
+        setTimeout(function(){
+            document.getElementsByClassName("hi_outLine")[0].style.width = "100%";
+        },1400)
+        setTimeout(function(){
+            document.getElementsByClassName("hi_outLine")[0].style.margin = "0 0 0 100%";
+            document.getElementsByClassName("hi_outLine")[0].style.width = "0px";
+        },2700)
+    },2)
+}
 
-document.addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", screenLoad);
