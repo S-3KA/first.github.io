@@ -15,8 +15,9 @@ function open__menu(){
 
 function screenLoad(){
     setTimeout(function(){
-        getWelcome.classList.toggle("hi_hide");
-    
+        
+        document.getElementsByClassName("hi_hide")[0].style.transform = "translate(0,0)"
+
         setTimeout(function(){
             document.getElementsByClassName("hi_outLine")[0].style.width = "100%";
         },1400)
