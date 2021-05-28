@@ -30,6 +30,10 @@ body{
     font-family: 'Varela Round', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 0em;
+}
+
 header{
     transition: transform 0.5s ease;
     position: fixed;
@@ -123,11 +127,13 @@ header h1 span{
 }
 .icon_open{
     background-color: #4cb480;
+    /* border-radius: 0%; */
     transform: translate(-50%,+400px) rotate(135deg);
 }
 .icon_close{
     background-color: #353a3f;
-    transform: translate(+200%,-20px);
+    border-radius: 10px;
+    transform: translate(+180%,-20px);
 }
 .menu_open{
     transform: translate(0,0);
@@ -150,7 +156,8 @@ header h1 span{
     align-items: center;
 }
 #hi{
-    position: relative;
+    /* position: relative; */
+    position: fixed;
     font-size: 10em;
     transition: transform 1.6s ease-in-out;
 }
@@ -164,5 +171,8 @@ header h1 span{
     background-color: #4cb480;
     border-radius: 20px;
     transition: 1.2s ease;
-
+}
+.content{
+    min-height: 100vh;
+    background-color: aliceblue;
 }

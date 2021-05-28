@@ -15,6 +15,9 @@
         background-color: #4cb480;
         transform: translate(-50%,+350px) rotate(135deg);
     }
+    .icon_close{
+        transform: translate(+210%,-20px);
+    }
     #hi{
         font-size: 8em;
     }
