@@ -25,4 +25,4 @@ setTimeout(function(){
     },2700)
 },20)
 
-// document.addEventListener("DOMContentLoaded", ready);
+document.addEventListener("DOMContentLoaded", ready);
