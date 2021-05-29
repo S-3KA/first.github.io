@@ -21,9 +21,15 @@
     #hi{
         font-size: 8em;
     }
+    .content h2{
+        font-size: 7em;
+    }
 }
 @media(max-width:500px){
     #hi{
         font-size: 6em;
+    }
+    .content h2{
+        font-size: 4em;
     }
 }
