@@ -128,7 +128,7 @@ header h1 span{
 .icon_open{
     background-color: #4cb480;
     /* border-radius: 0%; */
-    transform: translate(-50%,+400px) rotate(135deg);
+    transform: translate(-50%,+300px) rotate(135deg);
 }
 .icon_close{
     background-color: #353a3f;

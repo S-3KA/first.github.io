@@ -13,7 +13,7 @@
     }
     .icon_open{
         background-color: #4cb480;
-        transform: translate(-50%,+350px) rotate(135deg);
+        transform: translate(-50%,+250px) rotate(135deg);
     }
     .icon_close{
         transform: translate(+210%,-20px);
