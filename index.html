@@ -5,76 +5,188 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/adaptive.css">
-
-    <link rel="stylesheet" href="css/iconmonstr-iconic-font.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-
-    <header class="menu_close" id="menu">
-        <nav class="header__nav">
-            <button id="open_menu" class="icon_close" onclick="open__menu()">
-                <span class="material-icons md-36">
-                    widgets
-                </span>
-            </button>
-            <h1>S-3KA</h1>
-            <ul>
-                <li><a href="buttons/index.html">buttons/css</a></li>
-                <li><a href="calc/index.html">calculator</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <div class="welcome">
-            <div class="hi_hide" id="hi">
-                welcome
-                <div class="icons">
+    <div class="header">
+        <div class="container">
+            <nav>
+                <div class="header__left">
+                    <span class="log">
+                        <div>
+                            b
+                        </div>
+                    </span>
+                    <div><a href="#">footwear</a></div>
+                    <div><a href="#">cloting</a></div>
+                    <div><a href="#">accessories</a></div>
+                    <div><a href="#">brands</a></div>
+                    <div><a href="#">exclusive</a></div>
                 </div>
-                <div class="hi_outLine">
+                <div class="header__right">
+                    <div>                        
+                        <button>
+                            <div>
+                                <span class="material-icons md-24">
+                                    search
+                                </span>
+                            </div>
+                            <div>
+                                search
+                            </div>
+                        </button>
+                    </div>
+                    <div><button>
+                        <div>
+                            <span class="material-icons md-24">
+                                shopping_basket
+                            </span>
+                        </div>
+                        <div>
+                            cart
+                        </div>        
+                        </button>
+                    </div>
+                    <div><button>
+                        <div>
+                            <span class="material-icons md-24">
+                                person
+                            </span>
+                        </div>
+                        <div>
+                            sign in
+                        </div>    
+                        </button></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="product_intro">
+            <div class="left">
+                <img src="images/product.png" alt="product">
+            </div>
+            <div class="right">
+                <button id="heart" onclick="favorite()">
+                    <span class="material-icons" id="like">
+                        favorite_border
+                    </span>
+                </button>
+                
+                <h3>nike</h3>
+                <h2>air max tavas sd</h2>
+                <h4>&dollar; 160.00</h4>
+                <h5>Colors - Black/Pink Pow/Tour Yellow/White </h5>
+                <div class="select_product">
+
+                <img src="images/small_product_1.png" alt="#">
+
+                <img src="images/small_product_2.png" alt="#">
+
+                </div>
+                <p>Size charts</p>
+
+                <div class="chose_size">
+                    <select name="#" id="#">
+                        <option value="#">36</option>
+                        <option value="#">37</option>
+                        <option value="#">38</option>
+                        <option value="#">39</option>
+                        <option value="#">40</option>
+                    </select>
+                    <button>add to cart</button>
+                </div>       
+            </div>
+        </div>
+    </div>
+
+    <div class="second_block">
+
+        <div class="container">
+            <div class="photo">
+                <img src="images/img.png" alt="#">
+                <div class="text">
+                    <h2>
+                        CLASSIC CUSHIONING. MODERN COMFORT. 
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni beatae rerum est enim asperiores, rem ipsa assumenda laudantium doloribus. At esse sequi nesciunt quos suscipit in harum tempore! Atque, nostrum.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>    
+
+
+    <div class="third_block">
+        
+
+        <div class="container">
+            <img src="images/height_view.png" alt="#" id="height_view">
+            <div class="text">
+                <h5>story</h5>
+                <h2>NIKE AIR MAX ORIGINS</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate quas eveniet tempore doloribus nam sed, reiciendis quos. Beatae, ipsa sunt! Necessitatibus voluptatem ea illum fugit!</p>
+                <h5>benefits</h5>
+                <h3>Layered textile/synthetic upper</h3>
+                <p>for lightweight durability and</p>
+                <h3>injected phylon midsole doubles</h3>
+                <p>Outsole to reduce the overall weight of the shoe</p>
+                <h3>max ir heel unit</h3>
+                <p>deliver maximum lightweight cushioning</p>
+                <h3>rubber waffle outsole</h3>
+                <p>Durable, multi-surgrace traction</p>
+            </div>
+    
+            <div class="product_block">
+                <h2>nike</h2>
+                <h3>Air max Tavas SD</h3>
+                <h4>Black/Pink Pow/Tour Yellow/White </h4>
+                <img src="images/product.png" alt="product">
+                <div class="price">
+                    <p>en stock</p>
+                    <p>&dollar; 160.00</p>
+                </div>
+                <div class="buttons">
+                    <select name="#" id="#">
+                        <option value="#">36</option>
+                        <option value="#">37</option>
+                        <option value="#">38</option>
+                        <option value="#">39</option>
+                        <option value="#">40</option>
+                    </select>
+                    <button>add to cart</button>
                 </div>
             </div>
         </div>
 
-        <div class="content">
-            <h2>you can find me</h2>
-            <div class="aligen">
-                <div class="block__3">
-                    <div class="top_block">
-                        <div class="circle blue">
-                            <img src="images/301-3014577_discord-white-logo-png-transparent-png.png" alt="#">
-                        </div>
-                    </div>
+        
+    </div>
+
+    <div class="end">
+        <div class="container">
+            <h2>social</h2>
+            <h1>#nikeairmax</h1>
+            <div class="picture_4">
+                <div>
+                    <img src="images/1.png" alt="#">
+                </div>
+                <div>
+                    <img src="images/2.png" alt="#">
+                </div>
+                <div>
+                    <img src="images/3.png" alt="#">
+                </div>
+                <div>
+                    <img src="images/4.png" alt="#">
                 </div>
 
-                <div class="block__3">
-                    <div class="top_block">
-                        <div class="circle black">
-                            <img src="images/iconmonstr-steam-4-240.png" alt="#">
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="block__3">
-                    <div class="top_block">
-                        <div class="circle red">
-                            <img src="images/Logo_Gmail_(2015-2020).svg.png" alt="#">
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
-    </main>
-
-    <footer>
-
-    </footer>
-
-    <script src="js/script.js"></script>
+    </div>
+    <script src="js/js.js"></script>
 </body>
 </html>
